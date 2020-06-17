@@ -1,0 +1,36 @@
+body {
+    background-color: #AA9019;
+}
+
+.logo{
+    position:relative;
+    float: left;
+    width: 550px;
+}
+
+.jogo{
+    position: relative;
+    left: 0px;
+    float: left;
+}
+
+.logo1{
+    width: 145%;
+}
+
+.jogo1{
+    width: 1000px;
+    height: 900px;;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1;
+}
